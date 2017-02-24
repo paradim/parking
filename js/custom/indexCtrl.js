@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#licForm').submit(function(){
-    	var txtLic = $('#txtLic').val();
+    	var txtLic = $('#lic').val();
     	if(txtLic == null || txtLic == ""){
     		alert("You must enter value in field.");
     		return false;
