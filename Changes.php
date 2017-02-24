@@ -13,7 +13,7 @@ class Changes {
 	function __construct($paid, $fee) {
 		$this->paid = $paid;
 		$this->fee = $fee;
-		print "paid: ".$this->$paid."\nfee: ".$this->$fee;
+		print "paid: ".$this->paid."\nfee: ".$this->fee;
 	}
 
 	public function calcChange(){
