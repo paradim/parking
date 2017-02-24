@@ -25,7 +25,7 @@
                 <div class ="col-md-4 col-md-offset-4 text-center">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <form>
+                            <form id="licForm" >
                                 <div class="form-group">
                                     กรอกหมายเลขทะเบียนรถ
                                 </div>
@@ -38,7 +38,7 @@
 
                                 <div class="form-group">
                                       <div class="col-md-12">
-                                    <button type="submit" id="submitButton" class="btn btn-primary">
+                                    <button id="submitButton" type="submit" class="btn btn-primary">
                                         Submit
                                     </button>
                                     </div>
@@ -53,5 +53,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/custom/indexCtrl.js"></script>
     </body>
 </html>
