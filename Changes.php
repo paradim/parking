@@ -1,4 +1,5 @@
 <?php 
+
 class Changes {
 	public $n500 = 0;
 	public $n100 = 0;
@@ -8,12 +9,12 @@ class Changes {
 	public $fee = 0;
 	public $paid = 0;
 	public $change = 0;
-    
-    function __construct($paid, $fee) {
-    	$this->paid = $paid;
-    	$this->fee = $fee;
-    	print "paid: $this->$paid\nfee: $this->$fee";
-   }
+
+	function __construct($paid, $fee) {
+		$this->paid = $paid;
+		$this->fee = $fee;
+		print "paid: $this->$paid\nfee: $this->$fee";
+	}
 
 	public function calcChange(){
 		if ($this->$paid < $this->$fee){
@@ -39,5 +40,4 @@ class Changes {
 	}
 }
 
-} 
 ?>
