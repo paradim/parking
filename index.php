@@ -25,13 +25,13 @@
                 <div class ="col-md-4 col-md-offset-4 text-center">
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <form id="licForm" >
+                            <form id="licForm" action="/getTransaction.php" method="post">
                                 <div class="form-group">
                                     กรอกหมายเลขทะเบียนรถ
                                 </div>
                                 <div class="form-group">
                                     <div class ="col-md-10 col-md-offset-1" >
-                                        <input  id="txtLic"  type="text" style="margin-bottom: 10px" class="form-control"/>
+                                        <input  id="lic"  type="text" style="margin-bottom: 10px" class="form-control"/>
                                 </div>
                               
                                 </div>
