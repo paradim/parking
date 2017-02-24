@@ -1,8 +1,10 @@
 <?php 
 include 'Changes.php';
 
-$ch = new Changes(100, 70);
+echo "1";
+// $ch = new Changes(100, 70);
 
-echo $ch.toString();
+// echo $ch.toString();
 
+echo "2";
 ?>
