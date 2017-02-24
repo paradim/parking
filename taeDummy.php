@@ -1,13 +1,13 @@
 <?php 
 include 'Changes.php';
 
-echo "\n1\n";
+echo "<br/>1<br/>";
 $ch = new Changes(100, 70);
 
-echo "\n2\n";
+echo "<br/>2<br/>";
 $ch->calcChange();
-echo "\n3\n";
+echo "<br/>3<br/>";
 echo $ch->toString();
 
-echo "\n4\n";
+echo "<br/>4<br/>";
 ?>
