@@ -11,6 +11,8 @@ class Changes {
 	public $change = 0;
 
 	function __construct($paid, $fee) {
+		echo "paid: $paid";
+		echo "fee: $fee";
 		$this->paid = $paid;
 		$this->fee = $fee;
 		print "paid: $this->$paid\nfee: $this->$fee";
