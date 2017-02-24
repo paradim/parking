@@ -17,7 +17,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body  background="images/bg.jpg">
         <div class="container">
             <div class = "row" style="margin-top: 30px">
                 <div class ="col-md-4 col-md-offset-4 text-center">
