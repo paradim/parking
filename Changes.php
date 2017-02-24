@@ -38,6 +38,23 @@ class Changes {
 		
 		$this->change = $change;
 	}
+
+	public function toString(){
+		$str = "";
+		
+		$str .= "Fee : $this->$fee\n";
+		$str .= "Paid : $this->$paid\n";
+		$str .= "Change : $this->$change\n";
+		$str .= "\n";
+		$str .= "Note 500: $this->$n500\n";
+		$str .= "Note 100: $this->$n100\n";
+		$str .= "Note 50: $this->$n50\n";
+		$str .= "Note 20: $this->$n20\n";
+		$str .= "Coin 10: $this->$c10\n";
+		
+		return $str;
+	}
+
 }
 
 ?>
