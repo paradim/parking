@@ -17,52 +17,73 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body background="images/bg.jpg">
         <div class="container">
             <div class = "row" style="margin-top: 30px">
                 <div class ="col-md-4 col-md-offset-4">
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <div class="row">
-                                 <div class="col-md-12 text-center"><label style="font-weight: bold">ค่าที่จอดรถ</label> </div>
+                                <div class="col-md-12 text-center">
+                                    <label style="font-weight: bold">ค่าที่จอดรถ</label>
+                                </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-10 ">หมายเลขทะเบียนรถ</div>
+                                <div class="col-md-10 ">
+                                    หมายเลขทะเบียนรถ
+                                </div>
                                 <div class="col-md-2"></div>
                             </div>
-                             <div class="row">
-                                <div class="col-md-10">หมวดจังหวัด</div>
+                            <div class="row">
+                                <div class="col-md-10">
+                                    หมวดจังหวัด
+                                </div>
                                 <div class="col-md-2"></div>
                             </div>
-                             <div class="row">
-                                <div class="col-md-10">วันเวลาที่เข้า</div>
+                            <div class="row">
+                                <div class="col-md-10">
+                                    วันเวลาที่เข้า
+                                </div>
                                 <div class="col-md-2"></div>
                             </div>
-                              <div class="row">
-                                <div class="col-md-10">วันเวลาที่ออก</div>
+                            <div class="row">
+                                <div class="col-md-10">
+                                    วันเวลาที่ออก
+                                </div>
                                 <div class="col-md-2"></div>
                             </div>
-                              <div class="row">
-                                <div class="col-md-10">จำนวนที่จอดรถ</div>
+
+                            <div class="row">
+                                <div class="col-md-10">
+                                    จำนวนชั่วโมงที่จอด
+                                </div>
                                 <div class="col-md-2"></div>
                             </div>
-                              <div class="row">
-                                <div class="col-md-10">จำนวนเงินค่าจอด</div>
+                            <div class="row">
+                                <div class="col-md-10">
+                                    จำนวนเงินค่าจอด
+                                </div>
                                 <div class="col-md-2"></div>
                             </div>
-                              <div class="row">
-                                <div class="col-md-10">จำนวนชั่วโมงที่จอด</div>
-                                <div class="col-md-2"></div>
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <label style="font-weight: bold">รับเงิน</label>
+                                </div>
                             </div>
-                              <div class="row">
-                                <div class="col-md-10">จำนวนเงินค่าจอด</div>
-                                <div class="col-md-2"></div>
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <input  id="txtLic"  type="text" style="margin-bottom: 10px" class="form-control"/>
+                                </div>
                             </div>
-                              <div class="row">
-                                 <div class="col-md-12 text-center"><label style="font-weight: bold">รับเงิน</label> </div>
+ <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="btn btn-primary">
+                                        คำนวนเงินทอน
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
