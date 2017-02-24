@@ -10,10 +10,10 @@ class Transaction {
 	public $status;
 	
 	public function calcParkingHour(){
-		$min = round(abs($this->$timIn - $this->$timeOut) / 60,2);
+		$min = round(abs($this->timIn - $this->timeOut) / 60,2);
 		echo "$min";
-		$this->$totalHr = floor( $remain / 60) + 1;
-		return $this->$totalHr;
+		$this->totalHr = floor( $remain / 60) + 1;
+		return $this->totalHr;
 	}
 
 	public function calcFee(){

@@ -17,23 +17,23 @@ class Changes {
 	}
 
 	public function calcChange(){
-		if ($this->$paid < $this->$fee){
+		if ($this->paid < $this->fee){
 			return;
 		}
-		$change = $this->$paid - $this->$fee;
+		$change = $this->paid - $this->fee;
 		$remain = $change;
 		echo "remain: $remain.";
-		$this->$n500 =floor( $remain / 500);
-		$remain -= $this->$n500 * 500;
+		$this->n500 =floor( $remain / 500);
+		$remain -= $this->n500 * 500;
 		echo "remain: $remain.";
-		$this->$n100 =floor( $remain / 100);
-		$remain -= $this->$n100 * 100;
+		$this->n100 =floor( $remain / 100);
+		$remain -= $this->n100 * 100;
 		echo "remain: $remain.";
-		$this->$n50 =floor( $remain / 50);
-		$remain -= $this->$n50 * 50;
+		$this->n50 =floor( $remain / 50);
+		$remain -= $this->n50 * 50;
 		echo "remain: $remain.";
-		$this->$c10 =floor( $remain / 10);
-		$remain -= $this->$c10 * 10;
+		$this->c10 =floor( $remain / 10);
+		$remain -= $this->c10 * 10;
 		echo "remain: $remain.";
 		
 		$this->change = $change;
@@ -42,15 +42,15 @@ class Changes {
 	public function toString(){
 		$str = "";
 		
-		$str .= "Fee : ".$this->$fee."\n";
-		$str .= "Paid : ".$this->$paid."\n";
-		$str .= "Change : ".$this->$change."\n";
+		$str .= "Fee : ".$this->fee."\n";
+		$str .= "Paid : ".$this->paid."\n";
+		$str .= "Change : ".$this->change."\n";
 		$str .= "\n";
-		$str .= "Note 500: ".$this->$n500."\n";
-		$str .= "Note 100: ".$this->$n100."\n";
-		$str .= "Note 50: ".$this->$n50."\n";
-		$str .= "Note 20: ".$this->$n20."\n";
-		$str .= "Coin 10: ".$this->$c10."\n";
+		$str .= "Note 500: ".$this->n500."\n";
+		$str .= "Note 100: ".$this->n100."\n";
+		$str .= "Note 50: ".$this->n50."\n";
+		$str .= "Note 20: ".$this->n20."\n";
+		$str .= "Coin 10: ".$this->c10."\n";
 		
 		return $str;
 	}
